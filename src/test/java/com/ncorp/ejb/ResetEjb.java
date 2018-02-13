@@ -1,8 +1,8 @@
 package com.ncorp.ejb;
 
-import com.ncorp.homework.Category;
-import com.ncorp.homework.Quiz;
-import com.ncorp.homework.SubCategory;
+import com.ncorp.entity.Category;
+import com.ncorp.entity.Quiz;
+import com.ncorp.entity.SubCategory;
 
 import javax.ejb.Stateless;
 import javax.persistence.Entity;

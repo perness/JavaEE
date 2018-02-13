@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <move file="/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly-10.1.0.Final" tofile="/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly"/>
+</target>
+</project>

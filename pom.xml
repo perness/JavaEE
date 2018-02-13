@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <build>
     <plugins>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -15,8 +16,57 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>unpack</id>
+            <phase>process-test-classes</phase>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <configuration>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>org.wildfly</groupId>
+                  <artifactId>wildfly-dist</artifactId>
+                  <version>10.1.0.Final</version>
+                  <type>zip</type>
+                  <overWrite>false</overWrite>
+                  <outputDirectory>${basedir}/target/downloaded_Wildfly</outputDirectory>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.8</version>
+        <executions>
+          <execution>
+            <id>Rename Wildfly folder</id>
+            <phase>process-test-classes</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <target>
+                <move file="${basedir}/target/downloaded_Wildfly/wildfly-10.1.0.Final"
+                      tofile="${basedir}/target/downloaded_Wildfly/wildfly"/>
+              </target>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
     </plugins>
   </build>
+
   <packaging>jar</packaging>
 
   <name>homework</name>
@@ -27,24 +77,28 @@
   </properties>
 
   <dependencies>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api -->
     <dependency>
       <groupId>org.hibernate.javax.persistence</groupId>
       <artifactId>hibernate-jpa-2.1-api</artifactId>
       <version>1.0.0.Final</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
       <version>5.2.9.Final</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
     <dependency>
       <groupId>com.h2database</groupId>
@@ -52,18 +106,21 @@
       <version>1.4.196</version>
       <scope>test</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-validator</artifactId>
       <version>5.3.4.Final</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.glassfish.web/javax.el -->
     <dependency>
       <groupId>org.glassfish.web</groupId>
       <artifactId>javax.el</artifactId>
       <version>2.2.4</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
     <dependency>
       <groupId>javax</groupId>
@@ -71,6 +128,7 @@
       <version>7.0</version>
       <scope>provided</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.wildfly.arquillian/wildfly-arquillian-container-managed -->
     <dependency>
       <groupId>org.wildfly.arquillian</groupId>
@@ -78,6 +136,7 @@
       <version>2.1.0.Final</version>
       <scope>test</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.jboss.arquillian.junit/arquillian-junit-container -->
     <dependency>
       <groupId>org.jboss.arquillian.junit</groupId>
@@ -85,5 +144,8 @@
       <version>1.1.15.Final</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
+
+
 </project>

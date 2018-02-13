@@ -1,0 +1,1236 @@
+2018-02-12 22:11:15,808 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-02-12 22:11:16,024 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-02-12 22:11:16,084 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-02-12 22:11:16,085 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_151-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly
+	jboss.host.name = lenovo
+	jboss.modules.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = lenovo
+	jboss.qualified.host.name = lenovo
+	jboss.server.base.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone
+	jboss.server.config.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	jboss.server.data.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data
+	jboss.server.deploy.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content
+	jboss.server.log.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log
+	jboss.server.name = lenovo
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties
+	module.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	org.jboss.boot.log.file = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.13.0-32-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar -mp /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules org.jboss.as.standalone -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Djboss.server.base.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone -Djboss.server.log.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log -Djboss.server.config.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/nima/Documents/java_enterprise/homework
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = Europe/Oslo
+2018-02-12 22:11:16,086 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman -ea -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Dorg.jboss.boot.log.file=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log -Dlogging.configuration=file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties 
+2018-02-12 22:11:17,006 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-02-12 22:11:17,023 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.4.0.Final
+2018-02-12 22:11:17,029 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.4.0.Final
+2018-02-12 22:11:17,055 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.21.Final
+2018-02-12 22:11:17,074 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-02-12 22:11:17,083 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-02-12 22:11:17,077 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2018-02-12 22:11:17,082 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-02-12 22:11:17,089 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-02-12 22:11:17,102 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-02-12 22:11:17,106 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-02-12 22:11:17,119 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-02-12 22:11:17,144 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2018-02-12 22:11:17,145 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-02-12 22:11:17,158 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-02-12 22:11:17,203 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-02-12 22:11:17,203 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-02-12 22:11:17,280 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-02-12 22:11:17,402 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-02-12 22:11:17,410 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2018-02-12 22:11:17,412 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2018-02-12 22:11:17,467 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2018-02-12 22:11:17,468 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2018-02-12 22:11:17,482 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-02-12 22:11:17,555 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:11:17,675 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-02-12 22:11:17,690 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/deployments
+2018-02-12 22:11:17,796 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-02-12 22:11:17,815 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:11:17,815 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:11:17,819 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:11:17,822 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:11:17,822 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:11:17,823 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:11:17,926 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-02-12 22:11:18,006 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-02-12 22:11:18,163 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-02-12 22:11:18,164 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-02-12 22:11:18,164 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2718ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2018-02-12 22:11:18,678 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/94/659e2e8f35ee0ebf86463967b0e0458499f8a0/content
+2018-02-12 22:11:18,730 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2018-02-12 22:11:19,108 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for JTA
+2018-02-12 22:11:19,109 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for DB
+2018-02-12 22:11:19,176 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 25) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:11:19,176 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:11:19,360 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 25) HHH000204: Processing PersistenceUnitInfo [
+	name: DB
+	...]
+2018-02-12 22:11:19,360 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: JTA
+	...]
+2018-02-12 22:11:19,391 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment test.war
+2018-02-12 22:11:19,431 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.0.10.Final}
+2018-02-12 22:11:19,432 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2018-02-12 22:11:19,433 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2018-02-12 22:11:19,465 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.2.4.Final
+2018-02-12 22:11:19,475 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-12 22:11:19,556 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ResetEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:app/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:module/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:global/test/ResetEjb
+	java:app/test/ResetEjb
+	java:module/ResetEjb
+
+2018-02-12 22:11:19,556 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/CategoryEjb!com.ncorp.beans.CategoryEjb
+	java:app/test/CategoryEjb!com.ncorp.beans.CategoryEjb
+	java:module/CategoryEjb!com.ncorp.beans.CategoryEjb
+	java:global/test/CategoryEjb
+	java:app/test/CategoryEjb
+	java:module/CategoryEjb
+
+2018-02-12 22:11:19,692 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 25) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:11:19,693 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 25) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:11:19,742 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.5 (Final)
+2018-02-12 22:11:19,929 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:11:19,929 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 21) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:11:19,948 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 25) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-02-12 22:11:20,112 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:11:20,112 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 21) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:11:20,117 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 59) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:11:20,117 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 21) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:11:20,147 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 21) Envers integration enabled? : true
+2018-02-12 22:11:20,147 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2018-02-12 22:11:20,543 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 59) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:11:20,543 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:11:20,548 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: drop table Category if exists
+2018-02-12 22:11:20,548 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: drop table Quiz if exists
+2018-02-12 22:11:20,548 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: drop table SubCategory if exists
+2018-02-12 22:11:20,549 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:11:20,551 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2018-02-12 22:11:20,551 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:11:20,552 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000389: Unsuccessful: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:11:20,552 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) Table "CATEGORY" already exists; SQL statement:
+create table Category (id bigint not null, name varchar(128) not null, primary key (id)) [42101-173]
+2018-02-12 22:11:20,552 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:11:20,557 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000389: Unsuccessful: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:11:20,557 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) Table "QUIZ" already exists; SQL statement:
+create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:11:20,558 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:11:20,558 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000389: Unsuccessful: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:11:20,558 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 59) HHH000230: Schema export complete
+2018-02-12 22:11:20,558 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) Table "SUBCATEGORY" already exists; SQL statement:
+create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:11:20,559 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:11:20,559 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000389: Unsuccessful: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:11:20,559 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) Constraint "UK_FOEI036OV74BV692O5LH5OI66" already exists; SQL statement:
+alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name) [90045-173]
+2018-02-12 22:11:20,560 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:11:20,560 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000389: Unsuccessful: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:11:20,560 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) Constraint "UK_Q4B6WYHFM04U8JNSQW2TX2WXH" already exists; SQL statement:
+alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question) [90045-173]
+2018-02-12 22:11:20,560 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:11:20,561 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000389: Unsuccessful: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:11:20,561 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) Constraint "FKA14569RL1OL6EB40VAFV1YCI8" already exists; SQL statement:
+alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory [90045-173]
+2018-02-12 22:11:20,561 INFO  [stdout] (ServerService Thread Pool -- 21) Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:11:20,561 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000389: Unsuccessful: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:11:20,562 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) Constraint "FK806XR1D6NCS4KJ5POYK81O90M" already exists; SQL statement:
+alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category [90045-173]
+2018-02-12 22:11:20,562 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 21) HHH000230: Schema export complete
+2018-02-12 22:11:20,565 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:11:20,565 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 21) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:11:21,216 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /test
+2018-02-12 22:11:21,267 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2018-02-12 22:11:21,929 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0022: Unregistered web context: /test
+2018-02-12 22:11:21,954 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:11:21,954 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 17) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:11:21,955 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 59) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:11:21,957 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 17) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:11:21,957 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: drop table Category if exists
+2018-02-12 22:11:21,961 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: drop table Quiz if exists
+2018-02-12 22:11:21,962 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: drop table SubCategory if exists
+2018-02-12 22:11:21,964 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 17) HHH000230: Schema export complete
+2018-02-12 22:11:21,965 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:11:21,966 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 59) HHH000230: Schema export complete
+2018-02-12 22:11:21,969 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 17) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:11:21,969 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 25) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:11:21,985 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 66ms
+2018-02-12 22:11:21,985 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 25) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-02-12 22:11:21,999 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-02-12 22:11:22,001 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/94/659e2e8f35ee0ebf86463967b0e0458499f8a0/content
+2018-02-12 22:11:22,001 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2018-02-12 22:11:22,012 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2018-02-12 22:11:22,016 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-02-12 22:11:22,029 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:11:22,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2018-02-12 22:11:22,037 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-02-12 22:11:22,050 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-02-12 22:11:22,050 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-02-12 22:11:22,053 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2018-02-12 22:11:22,054 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-02-12 22:11:22,056 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-02-12 22:11:22,083 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 56ms
+2018-02-12 22:38:23,050 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-02-12 22:38:23,259 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-02-12 22:38:23,322 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-02-12 22:38:23,323 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_151-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly
+	jboss.host.name = lenovo
+	jboss.modules.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = lenovo
+	jboss.qualified.host.name = lenovo
+	jboss.server.base.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone
+	jboss.server.config.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	jboss.server.data.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data
+	jboss.server.deploy.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content
+	jboss.server.log.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log
+	jboss.server.name = lenovo
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties
+	module.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	org.jboss.boot.log.file = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.13.0-32-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar -mp /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules org.jboss.as.standalone -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Djboss.server.base.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone -Djboss.server.log.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log -Djboss.server.config.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/nima/Documents/java_enterprise/homework
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = Europe/Oslo
+2018-02-12 22:38:23,323 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman -ea -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Dorg.jboss.boot.log.file=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log -Dlogging.configuration=file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties 
+2018-02-12 22:38:24,227 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-02-12 22:38:24,239 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.4.0.Final
+2018-02-12 22:38:24,247 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.4.0.Final
+2018-02-12 22:38:24,273 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-02-12 22:38:24,286 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+2018-02-12 22:38:24,287 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-02-12 22:38:24,297 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-02-12 22:38:24,298 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-02-12 22:38:24,299 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2018-02-12 22:38:24,318 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-02-12 22:38:24,323 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-02-12 22:38:24,325 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-02-12 22:38:24,326 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-02-12 22:38:24,327 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-02-12 22:38:24,330 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-02-12 22:38:24,351 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2018-02-12 22:38:24,352 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-02-12 22:38:24,440 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-02-12 22:38:24,542 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-02-12 22:38:24,550 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2018-02-12 22:38:24,557 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2018-02-12 22:38:24,594 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2018-02-12 22:38:24,595 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2018-02-12 22:38:24,611 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-02-12 22:38:24,732 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:38:24,765 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-02-12 22:38:24,794 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/deployments
+2018-02-12 22:38:24,922 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-02-12 22:38:24,956 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:38:24,958 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:38:24,959 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:38:24,962 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:38:24,964 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:38:24,966 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:38:25,026 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-02-12 22:38:25,102 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-02-12 22:38:25,237 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-02-12 22:38:25,238 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-02-12 22:38:25,241 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2672ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2018-02-12 22:38:25,820 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/13/f4fb0383e100fc11017f9e14bbcb5dc46c5408/content
+2018-02-12 22:38:25,839 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2018-02-12 22:38:26,148 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for JTA
+2018-02-12 22:38:26,148 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for DB
+2018-02-12 22:38:26,224 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 19) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:38:26,224 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:38:26,246 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 19) HHH000204: Processing PersistenceUnitInfo [
+	name: DB
+	...]
+2018-02-12 22:38:26,246 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: JTA
+	...]
+2018-02-12 22:38:26,480 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment test.war
+2018-02-12 22:38:26,527 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 19) HHH000412: Hibernate Core {5.0.10.Final}
+2018-02-12 22:38:26,529 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 19) HHH000206: hibernate.properties not found
+2018-02-12 22:38:26,530 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 19) HHH000021: Bytecode provider name : javassist
+2018-02-12 22:38:26,538 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.2.4.Final
+2018-02-12 22:38:26,571 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 19) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-12 22:38:26,612 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ResetEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:app/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:module/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:global/test/ResetEjb
+	java:app/test/ResetEjb
+	java:module/ResetEjb
+
+2018-02-12 22:38:26,612 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:app/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:module/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:global/test/CategoryEjb
+	java:app/test/CategoryEjb
+	java:module/CategoryEjb
+
+2018-02-12 22:38:26,766 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:38:26,767 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 19) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:38:26,809 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.3.5 (Final)
+2018-02-12 22:38:27,002 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:38:27,002 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:38:27,063 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 19) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-02-12 22:38:27,218 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 27) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:38:27,218 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:38:27,224 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 58) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:38:27,224 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 27) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:38:27,259 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 27) Envers integration enabled? : true
+2018-02-12 22:38:27,259 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2018-02-12 22:38:27,708 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:38:27,708 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:38:27,715 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: drop table Category if exists
+2018-02-12 22:38:27,715 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: drop table Quiz if exists
+2018-02-12 22:38:27,716 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: drop table SubCategory if exists
+2018-02-12 22:38:27,717 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:38:27,720 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2018-02-12 22:38:27,720 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:38:27,721 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000389: Unsuccessful: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:38:27,721 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) Table "CATEGORY" already exists; SQL statement:
+create table Category (id bigint not null, name varchar(128) not null, primary key (id)) [42101-173]
+2018-02-12 22:38:27,721 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:38:27,725 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000389: Unsuccessful: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:38:27,725 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) Table "QUIZ" already exists; SQL statement:
+create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:38:27,726 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:38:27,726 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000389: Unsuccessful: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:38:27,726 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000230: Schema export complete
+2018-02-12 22:38:27,726 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) Table "SUBCATEGORY" already exists; SQL statement:
+create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:38:27,727 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:38:27,727 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000389: Unsuccessful: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:38:27,727 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) Constraint "UK_FOEI036OV74BV692O5LH5OI66" already exists; SQL statement:
+alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name) [90045-173]
+2018-02-12 22:38:27,727 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:38:27,727 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000389: Unsuccessful: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:38:27,728 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) Constraint "UK_Q4B6WYHFM04U8JNSQW2TX2WXH" already exists; SQL statement:
+alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question) [90045-173]
+2018-02-12 22:38:27,728 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:38:27,728 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000389: Unsuccessful: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:38:27,728 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) Constraint "FKA14569RL1OL6EB40VAFV1YCI8" already exists; SQL statement:
+alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory [90045-173]
+2018-02-12 22:38:27,728 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:38:27,729 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000389: Unsuccessful: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:38:27,729 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) Constraint "FK806XR1D6NCS4KJ5POYK81O90M" already exists; SQL statement:
+alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category [90045-173]
+2018-02-12 22:38:27,729 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000230: Schema export complete
+2018-02-12 22:38:27,733 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 27) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:38:27,733 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:38:28,362 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 20) WFLYUT0021: Registered web context: /test
+2018-02-12 22:38:28,402 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2018-02-12 22:38:29,096 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 20) WFLYUT0022: Unregistered web context: /test
+2018-02-12 22:38:29,122 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 20) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:38:29,122 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:38:29,123 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:38:29,123 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 20) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:38:29,125 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table Category if exists
+2018-02-12 22:38:29,126 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table Quiz if exists
+2018-02-12 22:38:29,127 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table SubCategory if exists
+2018-02-12 22:38:29,127 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:38:29,127 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000230: Schema export complete
+2018-02-12 22:38:29,127 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 20) HHH000230: Schema export complete
+2018-02-12 22:38:29,130 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 20) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:38:29,130 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:38:29,144 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 57ms
+2018-02-12 22:38:29,148 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 27) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-02-12 22:38:29,156 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-02-12 22:38:29,158 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/13/f4fb0383e100fc11017f9e14bbcb5dc46c5408/content
+2018-02-12 22:38:29,159 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2018-02-12 22:38:29,168 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2018-02-12 22:38:29,171 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-02-12 22:38:29,179 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:38:29,179 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-02-12 22:38:29,187 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2018-02-12 22:38:29,189 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-02-12 22:38:29,191 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2018-02-12 22:38:29,195 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-02-12 22:38:29,195 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-02-12 22:38:29,196 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-02-12 22:38:29,219 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 34ms
+2018-02-12 22:45:45,959 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-02-12 22:45:46,226 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-02-12 22:45:46,288 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-02-12 22:45:46,289 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_151-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly
+	jboss.host.name = lenovo
+	jboss.modules.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = lenovo
+	jboss.qualified.host.name = lenovo
+	jboss.server.base.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone
+	jboss.server.config.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	jboss.server.data.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data
+	jboss.server.deploy.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content
+	jboss.server.log.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log
+	jboss.server.name = lenovo
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties
+	module.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	org.jboss.boot.log.file = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.13.0-32-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar -mp /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules org.jboss.as.standalone -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Djboss.server.base.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone -Djboss.server.log.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log -Djboss.server.config.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/nima/Documents/java_enterprise/homework
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = Europe/Oslo
+2018-02-12 22:45:46,290 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman -ea -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Dorg.jboss.boot.log.file=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log -Dlogging.configuration=file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties 
+2018-02-12 22:45:47,250 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-02-12 22:45:47,262 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.4.0.Final
+2018-02-12 22:45:47,269 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.4.0.Final
+2018-02-12 22:45:47,290 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-02-12 22:45:47,295 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2018-02-12 22:45:47,300 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-02-12 22:45:47,313 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-02-12 22:45:47,314 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-02-12 22:45:47,316 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-02-12 22:45:47,318 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-02-12 22:45:47,322 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-02-12 22:45:47,344 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-02-12 22:45:47,348 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2018-02-12 22:45:47,353 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-02-12 22:45:47,435 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-02-12 22:45:47,436 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-02-12 22:45:47,437 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-02-12 22:45:47,460 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+2018-02-12 22:45:47,604 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-02-12 22:45:47,613 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2018-02-12 22:45:47,615 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2018-02-12 22:45:47,674 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2018-02-12 22:45:47,675 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2018-02-12 22:45:47,699 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-02-12 22:45:47,800 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:45:47,866 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-02-12 22:45:47,890 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/deployments
+2018-02-12 22:45:48,000 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-02-12 22:45:48,039 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:45:48,040 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:45:48,040 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:45:48,042 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:45:48,046 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:45:48,048 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:45:48,123 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-02-12 22:45:48,204 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-02-12 22:45:48,363 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-02-12 22:45:48,364 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-02-12 22:45:48,364 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2908ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2018-02-12 22:45:49,017 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/9f/434e5b4f73071004bf41034e6444aa044ff8b6/content
+2018-02-12 22:45:49,038 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2018-02-12 22:45:49,475 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for JTA
+2018-02-12 22:45:49,476 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for DB
+2018-02-12 22:45:49,543 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:45:49,543 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 10) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:45:49,565 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: JTA
+	...]
+2018-02-12 22:45:49,565 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 10) HHH000204: Processing PersistenceUnitInfo [
+	name: DB
+	...]
+2018-02-12 22:45:49,600 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment test.war
+2018-02-12 22:45:49,647 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {5.0.10.Final}
+2018-02-12 22:45:49,649 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2018-02-12 22:45:49,651 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2018-02-12 22:45:49,662 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 5.2.4.Final
+2018-02-12 22:45:49,690 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-12 22:45:49,733 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ResetEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:app/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:module/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:global/test/ResetEjb
+	java:app/test/ResetEjb
+	java:module/ResetEjb
+
+2018-02-12 22:45:49,734 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:app/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:module/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:global/test/CategoryEjb
+	java:app/test/CategoryEjb
+	java:module/CategoryEjb
+
+2018-02-12 22:45:49,868 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 10) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:45:49,869 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 10) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:45:49,916 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.3.5 (Final)
+2018-02-12 22:45:50,107 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:45:50,107 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:45:50,172 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 10) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-02-12 22:45:50,327 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 27) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:45:50,327 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:45:50,331 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 58) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:45:50,331 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 27) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:45:50,363 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 27) Envers integration enabled? : true
+2018-02-12 22:45:50,363 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2018-02-12 22:45:50,808 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:45:50,808 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:45:50,814 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table Category if exists
+2018-02-12 22:45:50,814 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table Quiz if exists
+2018-02-12 22:45:50,815 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table SubCategory if exists
+2018-02-12 22:45:50,816 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:45:50,818 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2018-02-12 22:45:50,819 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:45:50,819 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000389: Unsuccessful: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:45:50,820 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) Table "CATEGORY" already exists; SQL statement:
+create table Category (id bigint not null, name varchar(128) not null, primary key (id)) [42101-173]
+2018-02-12 22:45:50,820 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:45:50,824 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000389: Unsuccessful: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:45:50,824 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) Table "QUIZ" already exists; SQL statement:
+create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:45:50,825 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:45:50,825 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000389: Unsuccessful: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:45:50,825 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000230: Schema export complete
+2018-02-12 22:45:50,825 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) Table "SUBCATEGORY" already exists; SQL statement:
+create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:45:50,825 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:45:50,826 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000389: Unsuccessful: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:45:50,826 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) Constraint "UK_FOEI036OV74BV692O5LH5OI66" already exists; SQL statement:
+alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name) [90045-173]
+2018-02-12 22:45:50,826 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:45:50,826 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000389: Unsuccessful: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:45:50,826 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) Constraint "UK_Q4B6WYHFM04U8JNSQW2TX2WXH" already exists; SQL statement:
+alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question) [90045-173]
+2018-02-12 22:45:50,826 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:45:50,826 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000389: Unsuccessful: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:45:50,827 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) Constraint "FKA14569RL1OL6EB40VAFV1YCI8" already exists; SQL statement:
+alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory [90045-173]
+2018-02-12 22:45:50,827 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:45:50,827 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000389: Unsuccessful: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:45:50,827 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) Constraint "FK806XR1D6NCS4KJ5POYK81O90M" already exists; SQL statement:
+alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category [90045-173]
+2018-02-12 22:45:50,827 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000230: Schema export complete
+2018-02-12 22:45:50,831 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 27) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:45:50,831 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:45:51,540 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 24) WFLYUT0021: Registered web context: /test
+2018-02-12 22:45:51,579 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2018-02-12 22:45:52,231 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 24) WFLYUT0022: Unregistered web context: /test
+2018-02-12 22:45:52,256 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 24) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:45:52,256 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 10) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:45:52,256 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 24) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:45:52,256 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 10) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:45:52,258 INFO  [stdout] (ServerService Thread Pool -- 10) Hibernate: drop table Category if exists
+2018-02-12 22:45:52,259 INFO  [stdout] (ServerService Thread Pool -- 10) Hibernate: drop table Quiz if exists
+2018-02-12 22:45:52,260 INFO  [stdout] (ServerService Thread Pool -- 10) Hibernate: drop table SubCategory if exists
+2018-02-12 22:45:52,260 INFO  [stdout] (ServerService Thread Pool -- 10) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:45:52,260 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 24) HHH000230: Schema export complete
+2018-02-12 22:45:52,260 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 10) HHH000230: Schema export complete
+2018-02-12 22:45:52,263 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 10) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:45:52,269 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 24) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:45:52,279 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 10) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-02-12 22:45:52,280 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 55ms
+2018-02-12 22:45:52,290 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-02-12 22:45:52,292 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/9f/434e5b4f73071004bf41034e6444aa044ff8b6/content
+2018-02-12 22:45:52,292 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2018-02-12 22:45:52,343 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2018-02-12 22:45:52,347 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-02-12 22:45:52,356 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:45:52,364 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2018-02-12 22:45:52,368 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-02-12 22:45:52,370 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2018-02-12 22:45:52,371 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-02-12 22:45:52,374 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-02-12 22:45:52,375 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-02-12 22:45:52,377 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-02-12 22:45:52,396 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 36ms
+2018-02-12 22:54:09,624 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-02-12 22:54:09,905 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-02-12 22:54:09,974 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-02-12 22:54:09,975 DEBUG [org.jboss.as.config] (MSC service thread 1-5) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_151-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly
+	jboss.host.name = lenovo
+	jboss.modules.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = lenovo
+	jboss.qualified.host.name = lenovo
+	jboss.server.base.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone
+	jboss.server.config.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	jboss.server.data.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data
+	jboss.server.deploy.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content
+	jboss.server.log.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log
+	jboss.server.name = lenovo
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties
+	module.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	org.jboss.boot.log.file = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.13.0-32-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar -mp /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules org.jboss.as.standalone -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Djboss.server.base.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone -Djboss.server.log.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log -Djboss.server.config.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/nima/Documents/java_enterprise/homework
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = Europe/Oslo
+2018-02-12 22:54:09,976 DEBUG [org.jboss.as.config] (MSC service thread 1-5) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman -ea -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Dorg.jboss.boot.log.file=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log -Dlogging.configuration=file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties 
+2018-02-12 22:54:10,844 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-02-12 22:54:10,860 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.4.0.Final
+2018-02-12 22:54:10,867 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.4.0.Final
+2018-02-12 22:54:10,885 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-02-12 22:54:10,888 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-02-12 22:54:10,897 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-02-12 22:54:10,904 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-02-12 22:54:10,904 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-02-12 22:54:10,911 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-02-12 22:54:10,913 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-02-12 22:54:10,937 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-02-12 22:54:10,997 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-02-12 22:54:11,003 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2018-02-12 22:54:11,019 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-02-12 22:54:11,022 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-02-12 22:54:11,024 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-02-12 22:54:11,032 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-02-12 22:54:11,041 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2018-02-12 22:54:11,130 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-02-12 22:54:11,154 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2018-02-12 22:54:11,156 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2018-02-12 22:54:11,207 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2018-02-12 22:54:11,208 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2018-02-12 22:54:11,225 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-02-12 22:54:11,319 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:54:11,417 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-02-12 22:54:11,447 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/deployments
+2018-02-12 22:54:11,559 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-02-12 22:54:11,601 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:54:11,602 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:54:11,605 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:54:11,606 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:54:11,610 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:54:11,612 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:54:11,658 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-02-12 22:54:11,721 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-02-12 22:54:11,876 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-02-12 22:54:11,876 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-02-12 22:54:11,877 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2764ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2018-02-12 22:54:12,536 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/0d/e0c6d5d356e405f6d6b5d09a44b2bb6f443435/content
+2018-02-12 22:54:12,551 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2018-02-12 22:54:12,803 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for JTA
+2018-02-12 22:54:12,803 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for DB
+2018-02-12 22:54:13,034 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 5) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:54:13,034 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:54:13,050 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 5) HHH000204: Processing PersistenceUnitInfo [
+	name: JTA
+	...]
+2018-02-12 22:54:13,050 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 64) HHH000204: Processing PersistenceUnitInfo [
+	name: DB
+	...]
+2018-02-12 22:54:13,085 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment test.war
+2018-02-12 22:54:13,114 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 64) HHH000412: Hibernate Core {5.0.10.Final}
+2018-02-12 22:54:13,115 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000206: hibernate.properties not found
+2018-02-12 22:54:13,117 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000021: Bytecode provider name : javassist
+2018-02-12 22:54:13,158 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 64) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-12 22:54:13,164 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 5.2.4.Final
+2018-02-12 22:54:13,242 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ResetEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:app/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:module/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:global/test/ResetEjb
+	java:app/test/ResetEjb
+	java:module/ResetEjb
+
+2018-02-12 22:54:13,242 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:app/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:module/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:global/test/CategoryEjb
+	java:app/test/CategoryEjb
+	java:module/CategoryEjb
+
+2018-02-12 22:54:13,381 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:54:13,382 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:54:13,421 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.3.5 (Final)
+2018-02-12 22:54:13,595 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:54:13,595 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:54:13,645 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 5) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-02-12 22:54:13,800 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:54:13,800 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 3) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:54:13,805 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 64) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:54:13,805 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 3) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:54:13,835 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 3) Envers integration enabled? : true
+2018-02-12 22:54:13,835 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2018-02-12 22:54:14,282 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:54:14,282 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:54:14,290 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: drop table Category if exists
+2018-02-12 22:54:14,291 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: drop table Quiz if exists
+2018-02-12 22:54:14,291 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: drop table SubCategory if exists
+2018-02-12 22:54:14,292 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:54:14,296 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2018-02-12 22:54:14,297 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:54:14,298 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000389: Unsuccessful: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:54:14,299 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) Table "CATEGORY" already exists; SQL statement:
+create table Category (id bigint not null, name varchar(128) not null, primary key (id)) [42101-173]
+2018-02-12 22:54:14,299 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:54:14,303 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000389: Unsuccessful: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:54:14,304 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) Table "QUIZ" already exists; SQL statement:
+create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:54:14,304 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:54:14,305 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000389: Unsuccessful: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:54:14,305 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) Table "SUBCATEGORY" already exists; SQL statement:
+create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:54:14,305 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000230: Schema export complete
+2018-02-12 22:54:14,305 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:54:14,305 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000389: Unsuccessful: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:54:14,305 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) Constraint "UK_FOEI036OV74BV692O5LH5OI66" already exists; SQL statement:
+alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name) [90045-173]
+2018-02-12 22:54:14,305 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:54:14,306 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000389: Unsuccessful: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:54:14,306 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) Constraint "UK_Q4B6WYHFM04U8JNSQW2TX2WXH" already exists; SQL statement:
+alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question) [90045-173]
+2018-02-12 22:54:14,306 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:54:14,306 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000389: Unsuccessful: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:54:14,306 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) Constraint "FKA14569RL1OL6EB40VAFV1YCI8" already exists; SQL statement:
+alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory [90045-173]
+2018-02-12 22:54:14,306 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:54:14,306 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000389: Unsuccessful: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:54:14,307 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) Constraint "FK806XR1D6NCS4KJ5POYK81O90M" already exists; SQL statement:
+alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category [90045-173]
+2018-02-12 22:54:14,307 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000230: Schema export complete
+2018-02-12 22:54:14,312 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 64) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:54:14,311 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 3) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:54:14,932 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /test
+2018-02-12 22:54:14,965 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2018-02-12 22:54:15,659 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0022: Unregistered web context: /test
+2018-02-12 22:54:15,686 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:54:15,686 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:54:15,687 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:54:15,687 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:54:15,689 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table Category if exists
+2018-02-12 22:54:15,690 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table Quiz if exists
+2018-02-12 22:54:15,691 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop table SubCategory if exists
+2018-02-12 22:54:15,691 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 3) HHH000230: Schema export complete
+2018-02-12 22:54:15,692 INFO  [stdout] (ServerService Thread Pool -- 27) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:54:15,694 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 27) HHH000230: Schema export complete
+2018-02-12 22:54:15,696 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:54:15,696 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:54:15,719 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 27) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-02-12 22:54:15,720 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 73ms
+2018-02-12 22:54:15,730 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-02-12 22:54:15,732 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/0d/e0c6d5d356e405f6d6b5d09a44b2bb6f443435/content
+2018-02-12 22:54:15,732 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2018-02-12 22:54:15,743 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2018-02-12 22:54:15,745 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-02-12 22:54:15,763 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:54:15,766 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-02-12 22:54:15,767 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-02-12 22:54:15,769 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2018-02-12 22:54:15,771 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2018-02-12 22:54:15,772 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-02-12 22:54:15,773 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-02-12 22:54:15,773 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-02-12 22:54:15,800 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 43ms
+2018-02-12 22:55:16,581 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-02-12 22:55:16,828 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-02-12 22:55:16,893 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-02-12 22:55:16,894 DEBUG [org.jboss.as.config] (MSC service thread 1-5) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_151-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly
+	jboss.host.name = lenovo
+	jboss.modules.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = lenovo
+	jboss.qualified.host.name = lenovo
+	jboss.server.base.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone
+	jboss.server.config.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	jboss.server.data.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data
+	jboss.server.deploy.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content
+	jboss.server.log.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log
+	jboss.server.name = lenovo
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties
+	module.path = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules
+	org.jboss.boot.log.file = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.13.0-32-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar -mp /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules org.jboss.as.standalone -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Djboss.server.base.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone -Djboss.server.log.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log -Djboss.server.config.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/nima/Documents/java_enterprise/homework
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = Europe/Oslo
+2018-02-12 22:55:16,895 DEBUG [org.jboss.as.config] (MSC service thread 1-5) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman -ea -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly -Dorg.jboss.boot.log.file=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log -Dlogging.configuration=file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties 
+2018-02-12 22:55:17,821 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-02-12 22:55:17,833 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2018-02-12 22:55:17,839 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2018-02-12 22:55:17,865 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-02-12 22:55:17,868 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.21.Final
+2018-02-12 22:55:17,870 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-02-12 22:55:17,890 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-02-12 22:55:17,900 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2018-02-12 22:55:17,902 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-02-12 22:55:17,983 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-02-12 22:55:17,990 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2018-02-12 22:55:17,991 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-02-12 22:55:17,992 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-02-12 22:55:17,993 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-02-12 22:55:18,005 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-02-12 22:55:18,020 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-02-12 22:55:18,033 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-02-12 22:55:18,035 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-02-12 22:55:18,115 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-02-12 22:55:18,133 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2018-02-12 22:55:18,134 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2018-02-12 22:55:18,155 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2018-02-12 22:55:18,155 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2018-02-12 22:55:18,224 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-02-12 22:55:18,335 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:55:18,413 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-02-12 22:55:18,415 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/deployments
+2018-02-12 22:55:18,538 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-02-12 22:55:18,569 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:55:18,570 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:55:18,571 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:55:18,571 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:55:18,572 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:55:18,573 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:55:18,644 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-02-12 22:55:18,719 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-02-12 22:55:18,890 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-02-12 22:55:18,890 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-02-12 22:55:18,891 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2795ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2018-02-12 22:55:19,547 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/57/682c18110df67c8543a7eddaf45d30378956b2/content
+2018-02-12 22:55:19,566 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2018-02-12 22:55:20,045 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for JTA
+2018-02-12 22:55:20,045 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for DB
+2018-02-12 22:55:20,109 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:55:20,109 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:55:20,133 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 61) HHH000204: Processing PersistenceUnitInfo [
+	name: JTA
+	...]
+2018-02-12 22:55:20,133 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 2) HHH000204: Processing PersistenceUnitInfo [
+	name: DB
+	...]
+2018-02-12 22:55:20,151 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment test.war
+2018-02-12 22:55:20,215 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.4.Final
+2018-02-12 22:55:20,221 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 61) HHH000412: Hibernate Core {5.0.10.Final}
+2018-02-12 22:55:20,222 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000206: hibernate.properties not found
+2018-02-12 22:55:20,223 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000021: Bytecode provider name : javassist
+2018-02-12 22:55:20,267 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 61) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-12 22:55:20,295 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ResetEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:app/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:module/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:global/test/ResetEjb
+	java:app/test/ResetEjb
+	java:module/ResetEjb
+
+2018-02-12 22:55:20,296 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:app/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:module/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:global/test/CategoryEjb
+	java:app/test/CategoryEjb
+	java:module/CategoryEjb
+
+2018-02-12 22:55:20,475 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:55:20,475 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-02-12 22:55:20,519 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.3.5 (Final)
+2018-02-12 22:55:20,728 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 18) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:55:20,728 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:55:20,818 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-02-12 22:55:20,986 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 18) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:55:20,985 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 2) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-02-12 22:55:20,991 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 18) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:55:20,991 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 2) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-02-12 22:55:21,025 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 2) Envers integration enabled? : true
+2018-02-12 22:55:21,025 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 18) Envers integration enabled? : true
+2018-02-12 22:55:21,444 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 18) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:55:21,444 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:55:21,450 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: drop table Category if exists
+2018-02-12 22:55:21,450 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: drop table Quiz if exists
+2018-02-12 22:55:21,451 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: drop table SubCategory if exists
+2018-02-12 22:55:21,452 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:55:21,454 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2018-02-12 22:55:21,455 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:55:21,455 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000389: Unsuccessful: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+2018-02-12 22:55:21,456 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) Table "CATEGORY" already exists; SQL statement:
+create table Category (id bigint not null, name varchar(128) not null, primary key (id)) [42101-173]
+2018-02-12 22:55:21,456 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:55:21,461 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000389: Unsuccessful: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+2018-02-12 22:55:21,461 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) Table "QUIZ" already exists; SQL statement:
+create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:55:21,461 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:55:21,462 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000389: Unsuccessful: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+2018-02-12 22:55:21,462 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) Table "SUBCATEGORY" already exists; SQL statement:
+create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id)) [42101-173]
+2018-02-12 22:55:21,462 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 18) HHH000230: Schema export complete
+2018-02-12 22:55:21,463 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:55:21,463 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000389: Unsuccessful: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+2018-02-12 22:55:21,463 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) Constraint "UK_FOEI036OV74BV692O5LH5OI66" already exists; SQL statement:
+alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name) [90045-173]
+2018-02-12 22:55:21,463 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:55:21,463 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000389: Unsuccessful: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+2018-02-12 22:55:21,464 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) Constraint "UK_Q4B6WYHFM04U8JNSQW2TX2WXH" already exists; SQL statement:
+alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question) [90045-173]
+2018-02-12 22:55:21,464 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:55:21,464 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000389: Unsuccessful: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+2018-02-12 22:55:21,464 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) Constraint "FKA14569RL1OL6EB40VAFV1YCI8" already exists; SQL statement:
+alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory [90045-173]
+2018-02-12 22:55:21,465 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:55:21,465 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000389: Unsuccessful: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+2018-02-12 22:55:21,465 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) Constraint "FK806XR1D6NCS4KJ5POYK81O90M" already exists; SQL statement:
+alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category [90045-173]
+2018-02-12 22:55:21,465 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000230: Schema export complete
+2018-02-12 22:55:21,468 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 2) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:55:21,468 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 18) HHH000397: Using ASTQueryTranslatorFactory
+2018-02-12 22:55:22,080 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 4) WFLYUT0021: Registered web context: /test
+2018-02-12 22:55:22,128 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2018-02-12 22:55:22,752 INFO  [stdout] (default task-2) Category name CategoryName
+2018-02-12 22:55:22,830 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 4) WFLYUT0022: Unregistered web context: /test
+2018-02-12 22:55:22,863 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+2018-02-12 22:55:22,863 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+2018-02-12 22:55:22,863 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 61) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:55:22,863 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000227: Running hbm2ddl schema export
+2018-02-12 22:55:22,865 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: drop table Category if exists
+2018-02-12 22:55:22,867 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: drop table Quiz if exists
+2018-02-12 22:55:22,868 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: drop table SubCategory if exists
+2018-02-12 22:55:22,868 INFO  [stdout] (ServerService Thread Pool -- 2) Hibernate: drop sequence if exists hibernate_sequence
+2018-02-12 22:55:22,868 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 61) HHH000230: Schema export complete
+2018-02-12 22:55:22,869 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 2) HHH000230: Schema export complete
+2018-02-12 22:55:22,873 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+2018-02-12 22:55:22,873 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+2018-02-12 22:55:22,895 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-02-12 22:55:22,896 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 75ms
+2018-02-12 22:55:22,905 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-02-12 22:55:22,907 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/57/682c18110df67c8543a7eddaf45d30378956b2/content
+2018-02-12 22:55:22,907 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2018-02-12 22:55:22,916 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2018-02-12 22:55:22,918 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-02-12 22:55:22,934 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-02-12 22:55:22,941 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-02-12 22:55:22,942 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-02-12 22:55:22,946 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
+2018-02-12 22:55:22,948 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-02-12 22:55:22,953 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2018-02-12 22:55:22,953 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-02-12 22:55:22,954 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-02-12 22:55:22,978 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 45ms

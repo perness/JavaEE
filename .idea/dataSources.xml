@@ -9,5 +9,13 @@
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:./target/db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="JTA/Hibernate" uuid="b337e327-eee3-4a4f-acdb-16d590156ae4">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml</remarks>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:./target/db</jdbc-url>
+    </data-source>
   </component>
 </project>
