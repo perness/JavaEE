@@ -17,9 +17,9 @@ public class ResetEjb {
 	private EntityManager entityManager;
 
 	public void resetDatabase(){
-		deleteEntities(Category.class);
 		deleteEntities(Quiz.class);
 		deleteEntities(SubCategory.class);
+		deleteEntities(Category.class);
 	}
 
 	private void deleteEntities(Class<?> entity){

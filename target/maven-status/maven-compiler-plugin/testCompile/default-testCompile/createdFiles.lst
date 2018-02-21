@@ -1,6 +1,8 @@
 com/ncorp/ejb/ResetEjb.class
-com/ncorp/homework/QuizEntityTest.class
+com/ncorp/entity/QuizEntityTest.class
+com/ncorp/entity/AppTest.class
+com/ncorp/entity/CategoryEntityTest.class
 com/ncorp/ejb/CategoryEjbTest.class
-com/ncorp/homework/Util.class
-com/ncorp/homework/CategoryEntityTest.class
-com/ncorp/homework/AppTest.class
+com/ncorp/entity/Util.class
+com/ncorp/ejb/EjbTestBase.class
+com/ncorp/ejb/QuizEjbTest.class

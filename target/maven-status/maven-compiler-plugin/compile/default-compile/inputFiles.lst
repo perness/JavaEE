@@ -1,5 +1,7 @@
-/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/homework/SubCategory.java
-/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/homework/App.java
-/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/beans/CategoryEjb.java
-/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/homework/Quiz.java
-/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/homework/Category.java
+/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/entity/Quiz.java
+/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/entity/App.java
+/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/ejb/DefaultDataInitializerEjb.java
+/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/entity/Category.java
+/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/entity/SubCategory.java
+/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/ejb/CategoryEjb.java
+/home/nima/Documents/java_enterprise/homework/src/main/java/com/ncorp/ejb/QuizEjb.java

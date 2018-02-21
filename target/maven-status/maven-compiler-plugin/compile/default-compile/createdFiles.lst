@@ -1,5 +1,7 @@
-com/ncorp/homework/Category.class
-com/ncorp/homework/SubCategory.class
-com/ncorp/homework/Quiz.class
-com/ncorp/homework/App.class
-com/ncorp/beans/CategoryEjb.class
+com/ncorp/ejb/CategoryEjb.class
+com/ncorp/entity/Category.class
+com/ncorp/ejb/DefaultDataInitializerEjb.class
+com/ncorp/entity/SubCategory.class
+com/ncorp/entity/App.class
+com/ncorp/entity/Quiz.class
+com/ncorp/ejb/QuizEjb.class
