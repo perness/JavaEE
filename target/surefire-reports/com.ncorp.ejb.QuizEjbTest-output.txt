@@ -1,0 +1,396 @@
+Feb 27, 2018 8:06:25 PM org.jboss.as.arquillian.container.managed.ManagedDeployableContainer startInternal
+WARNING: Bundles path is deprecated and no longer used.
+Feb 27, 2018 8:06:25 PM org.jboss.as.arquillian.container.managed.ManagedDeployableContainer startInternal
+INFO: Starting container with: [/usr/lib/jvm/java-8-oracle/bin/java, -D[Standalone], -Xms64m, -Xmx512m, -Djava.net.preferIPv4Stack=true, -Djava.awt.headless=true, -Djboss.modules.system.pkgs=org.jboss.byteman, -ea, -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly, -Dorg.jboss.boot.log.file=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log/server.log, -Dlogging.configuration=file:/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/logging.properties, -jar, /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/jboss-modules.jar, -mp, /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/modules, org.jboss.as.standalone, -Djboss.home.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly, -Djboss.server.base.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone, -Djboss.server.log.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/log, -Djboss.server.config.dir=/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration]
+Feb 27, 2018 8:06:25 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 5.0.0.Final
+Feb 27, 2018 8:06:25 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.5.1.Final
+Feb 27, 2018 8:06:25 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.5.1.Final
+Feb 27, 2018 8:06:25 PM org.wildfly.security.Version <clinit>
+INFO: ELY00001: WildFly Elytron version 1.1.0.Final
+[0m20:06:26,018 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+[0m[0m20:06:26,235 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+[0m[0m20:06:26,302 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+[0m[0m20:06:27,149 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m20:06:27,164 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.4.0.Final
+[0m[0m20:06:27,169 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.4.0.Final
+[0m[0m20:06:27,194 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+[0m[0m20:06:27,196 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+[0m[0m20:06:27,211 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+[0m[0m20:06:27,217 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+[0m[0m20:06:27,226 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+[0m[33m20:06:27,232 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+[0m[0m20:06:27,240 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+[0m[0m20:06:27,241 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+[0m[0m20:06:27,250 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+[0m[0m20:06:27,354 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+[0m[0m20:06:27,363 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+[0m[0m20:06:27,367 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+[0m[0m20:06:27,396 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+[0m[0m20:06:27,398 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+[0m[0m20:06:27,426 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.0.Final starting
+[0m[0m20:06:27,543 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+[0m[0m20:06:27,554 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+[0m[0m20:06:27,565 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+[0m[0m20:06:27,565 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+[0m[0m20:06:27,566 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+[0m[0m20:06:27,632 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+[0m[0m20:06:27,667 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+[0m[33m20:06:27,746 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[0m20:06:27,759 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/deployments
+[0m[0m20:06:27,888 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+[0m[0m20:06:27,919 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m20:06:27,921 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m20:06:27,921 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m20:06:27,922 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m20:06:27,928 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m20:06:27,929 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m20:06:28,041 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+[0m[0m20:06:28,121 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+[0m[0m20:06:28,241 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m20:06:28,241 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m20:06:28,242 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2611ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+[0m[0m20:06:28,846 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/f3/8c92bcd13e478ba4319c1710cb99b95111e6ec/content
+[0m[0m20:06:28,860 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+[0m[0m20:06:29,285 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for JTA
+[0m[0m20:06:29,285 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for DB
+[0m[0m20:06:29,351 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 6) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+[0m[0m20:06:29,351 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+[0m[0m20:06:29,372 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 6) HHH000204: Processing PersistenceUnitInfo [
+	name: DB
+	...]
+[0m[0m20:06:29,372 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 65) HHH000204: Processing PersistenceUnitInfo [
+	name: JTA
+	...]
+[0m[0m20:06:29,404 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment test.war
+[0m[0m20:06:29,435 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 65) HHH000412: Hibernate Core {5.0.10.Final}
+[0m[0m20:06:29,436 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 65) HHH000206: hibernate.properties not found
+[0m[0m20:06:29,438 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 65) HHH000021: Bytecode provider name : javassist
+[0m[0m20:06:29,462 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final
+[0m[0m20:06:29,471 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 65) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[0m[0m20:06:29,527 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'DefaultDataInitializerEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/DefaultDataInitializerEjb!com.ncorp.ejb.DefaultDataInitializerEjb
+	java:app/test/DefaultDataInitializerEjb!com.ncorp.ejb.DefaultDataInitializerEjb
+	java:module/DefaultDataInitializerEjb!com.ncorp.ejb.DefaultDataInitializerEjb
+	java:global/test/DefaultDataInitializerEjb
+	java:app/test/DefaultDataInitializerEjb
+	java:module/DefaultDataInitializerEjb
+
+[0m[0m20:06:29,528 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ResetEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:app/test/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:module/ResetEjb!com.ncorp.ejb.ResetEjb
+	java:global/test/ResetEjb
+	java:app/test/ResetEjb
+	java:module/ResetEjb
+
+[0m[0m20:06:29,528 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'QuizEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/QuizEjb!com.ncorp.ejb.QuizEjb
+	java:app/test/QuizEjb!com.ncorp.ejb.QuizEjb
+	java:module/QuizEjb!com.ncorp.ejb.QuizEjb
+	java:global/test/QuizEjb
+	java:app/test/QuizEjb
+	java:module/QuizEjb
+
+[0m[0m20:06:29,528 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEjb' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:app/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:module/CategoryEjb!com.ncorp.ejb.CategoryEjb
+	java:global/test/CategoryEjb
+	java:app/test/CategoryEjb
+	java:module/CategoryEjb
+
+[0m[0m20:06:29,681 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m20:06:29,682 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m20:06:29,733 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.3.5 (Final)
+[0m[0m20:06:29,915 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 6) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+[0m[0m20:06:29,915 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 16) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+[0m[0m20:06:29,940 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started client-mappings cache from ejb container
+[0m[0m20:06:30,136 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 6) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[0m[0m20:06:30,136 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 16) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[0m[33m20:06:30,143 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 16) HHH000431: Unable to determine H2 database version, certain features may not work
+[0m[33m20:06:30,143 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 6) HHH000431: Unable to determine H2 database version, certain features may not work
+[0m[0m20:06:30,186 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 16) Envers integration enabled? : true
+[0m[0m20:06:30,186 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 6) Envers integration enabled? : true
+[0m[0m20:06:30,669 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000227: Running hbm2ddl schema export
+[0m[0m20:06:30,669 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 16) HHH000227: Running hbm2ddl schema export
+[0m[0m20:06:30,674 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: drop table Category if exists
+[0m[0m20:06:30,674 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: drop table Quiz if exists
+[0m[0m20:06:30,675 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: drop table SubCategory if exists
+[0m[0m20:06:30,675 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: drop sequence if exists hibernate_sequence
+[0m[0m20:06:30,678 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+[0m[0m20:06:30,678 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+[0m[31m20:06:30,679 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000389: Unsuccessful: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+[0m[31m20:06:30,679 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) Table "CATEGORY" already exists; SQL statement:
+create table Category (id bigint not null, name varchar(128) not null, primary key (id)) [42101-173]
+[0m[0m20:06:30,679 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+[0m[31m20:06:30,683 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000389: Unsuccessful: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+[0m[31m20:06:30,683 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) Table "QUIZ" already exists; SQL statement:
+create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id)) [42101-173]
+[0m[0m20:06:30,684 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+[0m[31m20:06:30,684 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000389: Unsuccessful: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+[0m[0m20:06:30,684 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 16) HHH000230: Schema export complete
+[0m[31m20:06:30,684 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) Table "SUBCATEGORY" already exists; SQL statement:
+create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id)) [42101-173]
+[0m[0m20:06:30,685 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+[0m[31m20:06:30,685 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000389: Unsuccessful: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+[0m[31m20:06:30,685 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) Constraint "UK_FOEI036OV74BV692O5LH5OI66" already exists; SQL statement:
+alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name) [90045-173]
+[0m[0m20:06:30,685 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+[0m[31m20:06:30,685 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000389: Unsuccessful: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+[0m[31m20:06:30,686 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) Constraint "UK_Q4B6WYHFM04U8JNSQW2TX2WXH" already exists; SQL statement:
+alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question) [90045-173]
+[0m[0m20:06:30,686 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+[0m[31m20:06:30,686 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000389: Unsuccessful: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+[0m[31m20:06:30,686 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) Constraint "FKA14569RL1OL6EB40VAFV1YCI8" already exists; SQL statement:
+alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory [90045-173]
+[0m[0m20:06:30,686 INFO  [stdout] (ServerService Thread Pool -- 6) Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+[0m[31m20:06:30,687 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000389: Unsuccessful: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+[0m[31m20:06:30,687 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) Constraint "FK806XR1D6NCS4KJ5POYK81O90M" already exists; SQL statement:
+alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category [90045-173]
+[0m[0m20:06:30,687 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 6) HHH000230: Schema export complete
+[0m[0m20:06:30,689 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 16) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m20:06:30,689 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 6) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m20:06:31,641 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 16) WFLYUT0021: Registered web context: /test
+[0m[0m20:06:31,679 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+[0m[31m20:06:32,329 ERROR [org.jboss.as.ejb3.invocation] (default task-8) WFLYEJB0034: EJB Invocation failed on component QuizEjb for method public java.util.List com.ncorp.ejb.QuizEjb.getRandomQuizzes(int,long): javax.ejb.EJBException: java.lang.IllegalArgumentException: Cannot choose 5 unique quizzes out of the 3 existing
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:187)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:636)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.ncorp.ejb.QuizEjb$$$view3.getRandomQuizzes(Unknown Source)
+	at com.ncorp.ejb.QuizEjbTest.testNotEnoughQuizzes(QuizEjbTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.jboss.arquillian.junit.Arquillian$8$1.invoke(Arquillian.java:334)
+	at org.jboss.arquillian.container.test.impl.execution.LocalTestExecuter.execute(LocalTestExecuter.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
+	at org.jboss.arquillian.container.test.impl.execution.ContainerTestExecuter.execute(ContainerTestExecuter.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createTestContext(TestContextHandler.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.test(EventTestRunnerAdaptor.java:122)
+	at org.jboss.arquillian.junit.Arquillian$8.evaluate(Arquillian.java:330)
+	at org.jboss.arquillian.junit.Arquillian$4.evaluate(Arquillian.java:212)
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:376)
+	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
+	at org.jboss.arquillian.junit.Arquillian$5.evaluate(Arquillian.java:223)
+	at org.jboss.arquillian.junit.Arquillian$7$1.invoke(Arquillian.java:287)
+	at org.jboss.arquillian.container.test.impl.execution.BeforeLifecycleEventExecuter.on(BeforeLifecycleEventExecuter.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createTestContext(TestContextHandler.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.fireCustomLifecycle(EventTestRunnerAdaptor.java:142)
+	at org.jboss.arquillian.junit.Arquillian$7.evaluate(Arquillian.java:281)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:174)
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:376)
+	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
+	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:185)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:140)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.jboss.arquillian.junit.container.JUnitTestRunner.execute(JUnitTestRunner.java:61)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.executeTest(ServletTestRunner.java:170)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.execute(ServletTestRunner.java:135)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.doGet(ServletTestRunner.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Cannot choose 5 unique quizzes out of the 3 existing
+	at com.ncorp.ejb.QuizEjb.getRandomQuizzes(QuizEjb.java:58)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 181 more
+
+[0m[0m20:06:32,370 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 16) WFLYUT0022: Unregistered web context: /test
+[0m[0m20:06:32,392 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+[0m[0m20:06:32,392 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 28) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+[0m[0m20:06:32,393 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 65) HHH000227: Running hbm2ddl schema export
+[0m[0m20:06:32,393 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 28) HHH000227: Running hbm2ddl schema export
+[0m[0m20:06:32,394 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: drop table Category if exists
+[0m[0m20:06:32,395 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: drop table Quiz if exists
+[0m[0m20:06:32,396 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: drop table SubCategory if exists
+[0m[0m20:06:32,396 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: drop sequence if exists hibernate_sequence
+[0m[0m20:06:32,396 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 28) HHH000230: Schema export complete
+[0m[0m20:06:32,396 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 65) HHH000230: Schema export complete
+[0m[0m20:06:32,399 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+[0m[0m20:06:32,399 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 28) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+[0m[0m20:06:32,414 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 51ms
+[0m[0m20:06:32,416 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 28) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+[0m[33m20:06:32,428 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+[0m[0m20:06:32,431 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/f3/8c92bcd13e478ba4319c1710cb99b95111e6ec/content
+[0m[0m20:06:32,431 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+[0m

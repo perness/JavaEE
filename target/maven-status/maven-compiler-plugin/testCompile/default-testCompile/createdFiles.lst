@@ -1,8 +1,8 @@
 com/ncorp/ejb/ResetEjb.class
 com/ncorp/entity/QuizEntityTest.class
-com/ncorp/entity/AppTest.class
 com/ncorp/entity/CategoryEntityTest.class
 com/ncorp/ejb/CategoryEjbTest.class
 com/ncorp/entity/Util.class
 com/ncorp/ejb/EjbTestBase.class
 com/ncorp/ejb/QuizEjbTest.class
+com/ncorp/ejb/DefaultDataInitializerEjbTest.class

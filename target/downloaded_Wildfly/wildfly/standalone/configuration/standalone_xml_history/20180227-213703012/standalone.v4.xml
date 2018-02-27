@@ -417,7 +417,7 @@
 
     <deployments>
         <deployment name="test.war" runtime-name="test.war">
-            <content sha1="d476d4911538244fbfdea29faa4cf741a5879f44"/>
+            <content sha1="f53c0708f981da12b2c087fdea3a970ecb3823ee"/>
         </deployment>
     </deployments>
 </server>

@@ -90,7 +90,7 @@ public class DefaultDataInitializerEjb {
 				"Who is Real Madrid's all-time top goalscorer?",
 				"Raul",
 				"Di Stefano",
-				"Guti",
+				"Zidane",
 				"Cristiano Ronaldo",
 				3);
 

@@ -22,13 +22,13 @@ public class QuizEjb {
 
 		if (subCategory == null) throw new IllegalArgumentException("Subcategory with id " + subCategoryId + "could not be found");
 
+		quiz.setSubCategory(subCategory);
 		quiz.setQuestion(question);
 		quiz.setAnswerOne(firstAnswer);
 		quiz.setAnswerTwo(secondAnswer);
 		quiz.setAnswerThree(thirdAnswer);
 		quiz.setAnswerFour(fourthAnswer);
 		quiz.setCorrectAnswer(indexOfCorrectAnswer);
-		quiz.setSubCategory(subCategory);
 
 		entityManager.persist(quiz);
 
@@ -36,7 +36,7 @@ public class QuizEjb {
 	}
 
 	public List<Quiz> getQuizzes(){
-		TypedQuery getAllQuizzes = entityManager.createQuery("select q from Quiz q", Quiz.class);
+		TypedQuery<Quiz> getAllQuizzes = entityManager.createQuery("select q from Quiz q", Quiz.class);
 
 		return getAllQuizzes.getResultList();
 	}

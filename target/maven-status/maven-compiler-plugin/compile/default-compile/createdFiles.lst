@@ -2,6 +2,6 @@ com/ncorp/ejb/CategoryEjb.class
 com/ncorp/entity/Category.class
 com/ncorp/ejb/DefaultDataInitializerEjb.class
 com/ncorp/entity/SubCategory.class
-com/ncorp/entity/App.class
 com/ncorp/entity/Quiz.class
+com/ncorp/controller/MatchController.class
 com/ncorp/ejb/QuizEjb.class

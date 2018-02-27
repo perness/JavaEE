@@ -16,7 +16,7 @@ public class CategoryEjb {
 	@PersistenceContext
 	private EntityManager entityManager;
 
-	public Long createCategory(@NotNull String name){
+	public Long createCategory(String name){
 		Category category = new Category();
 		category.setName(name);
 
@@ -28,6 +28,7 @@ public class CategoryEjb {
 	public Long createSubCategory(long parentId, String name){
 		Category category = entityManager.find(Category.class, parentId);
 		if(category == null) throw new IllegalArgumentException("Category with id " +parentId+ " does not exist");
+
 		SubCategory subCategory = new SubCategory();
 
 		subCategory.setName(name);
