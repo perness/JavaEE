@@ -1,17 +1,17 @@
-[0m20:06:33,784 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/27/a0a20231aeb7bcc303b324b9691e29e8648038/content
-[0m[0m20:06:33,786 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
-[0m[0m20:06:33,872 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for JTA
-[0m[0m20:06:33,873 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for DB
-[0m[0m20:06:33,888 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 28) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#DB'
-[0m[0m20:06:33,888 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 28) HHH000204: Processing PersistenceUnitInfo [
-	name: DB
-	...]
-[0m[0m20:06:33,891 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 16) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
-[0m[0m20:06:33,891 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 16) HHH000204: Processing PersistenceUnitInfo [
+[0m19:23:44,563 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/52/3326c670d6fffb76a4613fe0a2c7b3a8461c51/content
+[0m[0m19:23:44,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+[0m[0m19:23:44,674 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for JTA
+[0m[0m19:23:44,675 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for DB
+[0m[0m19:23:44,689 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 22) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+[0m[0m19:23:44,690 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 22) HHH000204: Processing PersistenceUnitInfo [
 	name: JTA
 	...]
-[0m[0m20:06:33,897 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment test.war
-[0m[0m20:06:33,902 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'DefaultDataInitializerEjb' in deployment unit 'deployment "test.war"' are as follows:
+[0m[0m19:23:44,704 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 14) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+[0m[0m19:23:44,704 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 14) HHH000204: Processing PersistenceUnitInfo [
+	name: DB
+	...]
+[0m[0m19:23:44,706 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment test.war
+[0m[0m19:23:44,711 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'DefaultDataInitializerEjb' in deployment unit 'deployment "test.war"' are as follows:
 
 	java:global/test/DefaultDataInitializerEjb!com.ncorp.ejb.DefaultDataInitializerEjb
 	java:app/test/DefaultDataInitializerEjb!com.ncorp.ejb.DefaultDataInitializerEjb
@@ -20,7 +20,7 @@
 	java:app/test/DefaultDataInitializerEjb
 	java:module/DefaultDataInitializerEjb
 
-[0m[0m20:06:33,902 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ResetEjb' in deployment unit 'deployment "test.war"' are as follows:
+[0m[0m19:23:44,711 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ResetEjb' in deployment unit 'deployment "test.war"' are as follows:
 
 	java:global/test/ResetEjb!com.ncorp.ejb.ResetEjb
 	java:app/test/ResetEjb!com.ncorp.ejb.ResetEjb
@@ -29,7 +29,7 @@
 	java:app/test/ResetEjb
 	java:module/ResetEjb
 
-[0m[0m20:06:33,903 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'QuizEjb' in deployment unit 'deployment "test.war"' are as follows:
+[0m[0m19:23:44,711 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'QuizEjb' in deployment unit 'deployment "test.war"' are as follows:
 
 	java:global/test/QuizEjb!com.ncorp.ejb.QuizEjb
 	java:app/test/QuizEjb!com.ncorp.ejb.QuizEjb
@@ -38,7 +38,7 @@
 	java:app/test/QuizEjb
 	java:module/QuizEjb
 
-[0m[0m20:06:33,903 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEjb' in deployment unit 'deployment "test.war"' are as follows:
+[0m[0m19:23:44,711 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'CategoryEjb' in deployment unit 'deployment "test.war"' are as follows:
 
 	java:global/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
 	java:app/test/CategoryEjb!com.ncorp.ejb.CategoryEjb
@@ -47,42 +47,42 @@
 	java:app/test/CategoryEjb
 	java:module/CategoryEjb
 
-[0m[0m20:06:33,934 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 16) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-[0m[0m20:06:33,934 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 16) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-[0m[0m20:06:33,938 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 16) WFLYCLINF0002: Started client-mappings cache from ejb container
-[0m[0m20:06:33,949 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 16) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
-[0m[0m20:06:33,949 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 28) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#DB'
-[0m[0m20:06:33,949 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 16) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-[0m[0m20:06:33,949 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 28) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-[0m[33m20:06:33,950 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 16) HHH000431: Unable to determine H2 database version, certain features may not work
-[0m[33m20:06:33,950 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 28) HHH000431: Unable to determine H2 database version, certain features may not work
-[0m[0m20:06:33,953 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 16) Envers integration enabled? : true
-[0m[0m20:06:33,954 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 28) Envers integration enabled? : true
-[0m[0m20:06:33,983 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 16) HHH000227: Running hbm2ddl schema export
-[0m[0m20:06:33,987 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 28) HHH000227: Running hbm2ddl schema export
-[0m[0m20:06:33,987 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 16) HHH000230: Schema export complete
-[0m[0m20:06:33,988 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 16) HHH000397: Using ASTQueryTranslatorFactory
-[0m[0m20:06:33,988 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: drop table Category if exists
-[0m[0m20:06:33,989 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: drop table Quiz if exists
-[0m[0m20:06:33,989 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: drop table SubCategory if exists
-[0m[0m20:06:33,990 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: drop sequence if exists hibernate_sequence
-[0m[0m20:06:33,990 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
-[0m[0m20:06:33,991 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
-[0m[0m20:06:33,991 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
-[0m[0m20:06:33,992 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
-[0m[0m20:06:33,992 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
-[0m[0m20:06:33,993 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
-[0m[0m20:06:33,993 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
-[0m[0m20:06:33,995 INFO  [stdout] (ServerService Thread Pool -- 28) Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
-[0m[0m20:06:33,996 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 28) HHH000230: Schema export complete
-[0m[0m20:06:33,997 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 28) HHH000397: Using ASTQueryTranslatorFactory
-[0m[0m20:06:34,191 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0021: Registered web context: /test
-[0m[0m20:06:34,197 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
-[0m[33m20:06:34,390 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-18) SQL Error: 23505, SQLState: 23505
-[0m[31m20:06:34,391 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-18) Unique index or primary key violation: "UK_FOEI036OV74BV692O5LH5OI66_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES ( /* key:1 */ 25, 'name')"; SQL statement:
+[0m[0m19:23:44,748 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 14) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m19:23:44,749 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 14) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+[0m[0m19:23:44,753 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 22) WFLYCLINF0002: Started client-mappings cache from ejb container
+[0m[0m19:23:44,763 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 14) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+[0m[0m19:23:44,763 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 22) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+[0m[0m19:23:44,765 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 14) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[0m[0m19:23:44,765 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 22) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[0m[33m19:23:44,766 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 14) HHH000431: Unable to determine H2 database version, certain features may not work
+[0m[33m19:23:44,766 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 22) HHH000431: Unable to determine H2 database version, certain features may not work
+[0m[0m19:23:44,769 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 14) Envers integration enabled? : true
+[0m[0m19:23:44,769 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 22) Envers integration enabled? : true
+[0m[0m19:23:44,801 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 14) HHH000227: Running hbm2ddl schema export
+[0m[0m19:23:44,804 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 22) HHH000227: Running hbm2ddl schema export
+[0m[0m19:23:44,805 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: drop table Category if exists
+[0m[0m19:23:44,806 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 14) HHH000230: Schema export complete
+[0m[0m19:23:44,806 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: drop table Quiz if exists
+[0m[0m19:23:44,806 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 14) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m19:23:44,807 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: drop table SubCategory if exists
+[0m[0m19:23:44,807 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: drop sequence if exists hibernate_sequence
+[0m[0m19:23:44,808 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+[0m[0m19:23:44,808 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
+[0m[0m19:23:44,809 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer<=3 AND correctAnswer>=0), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
+[0m[0m19:23:44,809 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
+[0m[0m19:23:44,810 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 unique (name)
+[0m[0m19:23:44,810 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
+[0m[0m19:23:44,810 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
+[0m[0m19:23:44,812 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
+[0m[0m19:23:44,813 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 22) HHH000230: Schema export complete
+[0m[0m19:23:44,814 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 22) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m19:23:45,010 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 14) WFLYUT0021: Registered web context: /test
+[0m[0m19:23:45,017 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+[0m[33m19:23:45,171 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-19) SQL Error: 23505, SQLState: 23505
+[0m[31m19:23:45,171 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-19) Unique index or primary key violation: "UK_FOEI036OV74BV692O5LH5OI66_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES ( /* key:1 */ 25, 'name')"; SQL statement:
 insert into Category (name, id) values (?, ?) [23505-173]
-[0m[0m20:06:34,392 INFO  [org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl] (default task-18) HHH000010: On release of batch it still contained JDBC statements
-[0m[33m20:06:34,393 WARN  [com.arjuna.ats.arjuna] (default task-18) ARJUNA012125: TwoPhaseCoordinator.beforeCompletion - failed for SynchronizationImple< 0:ffff7f000101:69f43907:5a95ac33:1b8, org.jboss.as.txn.service.internal.tsr.JCAOrderedLastSynchronizationList@49f1d827 >: javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[0m[0m19:23:45,173 INFO  [org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl] (default task-19) HHH000010: On release of batch it still contained JDBC statements
+[0m[33m19:23:45,174 WARN  [com.arjuna.ats.arjuna] (default task-19) ARJUNA012125: TwoPhaseCoordinator.beforeCompletion - failed for SynchronizationImple< 0:ffff7f000101:-381911ae:5a9d8b2a:1b8, org.jboss.as.txn.service.internal.tsr.JCAOrderedLastSynchronizationList@35d0c2b9 >: javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1692)
 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1602)
 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1608)
@@ -324,7 +324,7 @@ insert into Category (name, id) values (?, ?) [23505-173]
 	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
 	... 211 more
 
-[0m[31m20:06:34,395 ERROR [org.jboss.as.ejb3.invocation] (default task-18) WFLYEJB0034: EJB Invocation failed on component CategoryEjb for method public java.lang.Long com.ncorp.ejb.CategoryEjb.createCategory(java.lang.String): javax.ejb.EJBTransactionRolledbackException: Transaction rolled back
+[0m[31m19:23:45,176 ERROR [org.jboss.as.ejb3.invocation] (default task-19) WFLYEJB0034: EJB Invocation failed on component CategoryEjb for method public java.lang.Long com.ncorp.ejb.CategoryEjb.createCategory(java.lang.String): javax.ejb.EJBTransactionRolledbackException: Transaction rolled back
 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleEndTransactionException(CMTTxInterceptor.java:137)
 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:117)
 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:279)
@@ -573,34 +573,34 @@ insert into Category (name, id) values (?, ?) [23505-173]
 	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
 	... 211 more
 
-[0m[0m20:06:34,434 INFO  [stdout] (default task-22) Category name: CategoryName
-[0m[0m20:06:34,469 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0022: Unregistered web context: /test
-[0m[0m20:06:34,474 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 29) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
-[0m[0m20:06:34,474 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 12) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#DB'
-[0m[0m20:06:34,476 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 29) HHH000227: Running hbm2ddl schema export
-[0m[0m20:06:34,476 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 12) HHH000227: Running hbm2ddl schema export
-[0m[0m20:06:34,477 INFO  [stdout] (ServerService Thread Pool -- 12) Hibernate: drop table Category if exists
-[0m[0m20:06:34,477 INFO  [stdout] (ServerService Thread Pool -- 12) Hibernate: drop table Quiz if exists
-[0m[0m20:06:34,477 INFO  [stdout] (ServerService Thread Pool -- 12) Hibernate: drop table SubCategory if exists
-[0m[0m20:06:34,478 INFO  [stdout] (ServerService Thread Pool -- 12) Hibernate: drop sequence if exists hibernate_sequence
-[0m[0m20:06:34,478 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 12) HHH000230: Schema export complete
-[0m[0m20:06:34,478 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 29) HHH000230: Schema export complete
-[0m[0m20:06:34,479 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 29) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#DB'
-[0m[0m20:06:34,479 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 12) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
-[0m[0m20:06:34,484 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 12) WFLYCLINF0003: Stopped client-mappings cache from ejb container
-[0m[0m20:06:34,491 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 23ms
-[0m[33m20:06:34,497 WARN  [org.jboss.as.controller] (management-handler-thread - 3) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
-[0m[0m20:06:34,499 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/27/a0a20231aeb7bcc303b324b9691e29e8648038/content
-[0m[0m20:06:34,499 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
-[0m[0m20:06:34,506 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0236: Suspending server with no timeout.
-[0m[0m20:06:34,508 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
-[0m[0m20:06:34,514 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
-[0m[0m20:06:34,514 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
-[0m[0m20:06:34,515 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
-[0m[0m20:06:34,522 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
-[0m[0m20:06:34,523 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
-[0m[0m20:06:34,523 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
-[0m[0m20:06:34,524 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.4.0.Final stopping
-[0m[0m20:06:34,528 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
-[0m[0m20:06:34,543 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 28ms
+[0m[0m19:23:45,219 INFO  [stdout] (default task-22) Category name: CategoryName
+[0m[0m19:23:45,262 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 14) WFLYUT0022: Unregistered web context: /test
+[0m[0m19:23:45,268 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 25) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#DB'
+[0m[0m19:23:45,267 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 11) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#JTA'
+[0m[0m19:23:45,269 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 25) HHH000227: Running hbm2ddl schema export
+[0m[0m19:23:45,269 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 11) HHH000227: Running hbm2ddl schema export
+[0m[0m19:23:45,269 INFO  [stdout] (ServerService Thread Pool -- 25) Hibernate: drop table Category if exists
+[0m[0m19:23:45,270 INFO  [stdout] (ServerService Thread Pool -- 25) Hibernate: drop table Quiz if exists
+[0m[0m19:23:45,270 INFO  [stdout] (ServerService Thread Pool -- 25) Hibernate: drop table SubCategory if exists
+[0m[0m19:23:45,270 INFO  [stdout] (ServerService Thread Pool -- 25) Hibernate: drop sequence if exists hibernate_sequence
+[0m[0m19:23:45,270 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 25) HHH000230: Schema export complete
+[0m[0m19:23:45,270 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 11) HHH000230: Schema export complete
+[0m[0m19:23:45,272 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 11) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#DB'
+[0m[0m19:23:45,272 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 25) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#JTA'
+[0m[0m19:23:45,276 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 25) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+[0m[0m19:23:45,281 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 20ms
+[0m[33m19:23:45,287 WARN  [org.jboss.as.controller] (management-handler-thread - 3) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+[0m[0m19:23:45,288 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/nima/Documents/java_enterprise/homework/target/downloaded_Wildfly/wildfly/standalone/data/content/52/3326c670d6fffb76a4613fe0a2c7b3a8461c51/content
+[0m[0m19:23:45,289 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+[0m[0m19:23:45,296 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m19:23:45,298 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m19:23:45,305 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+[0m[0m19:23:45,306 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+[0m[0m19:23:45,311 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+[0m[0m19:23:45,311 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+[0m[0m19:23:45,312 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+[0m[0m19:23:45,312 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+[0m[0m19:23:45,313 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 1.4.0.Final stopping
+[0m[0m19:23:45,316 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+[0m[0m19:23:45,337 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 33ms
 [0m

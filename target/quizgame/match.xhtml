@@ -10,6 +10,12 @@
 
 <ui:composition template="layout.xhtml">
 
+    <ui:define name="title">
+        This is the match title in the "ui:define name='title'"
+    </ui:define>
+
+    <ui:define name="content">
+
 <h1>Match</h1>
 
 <c:choose>
@@ -39,8 +45,8 @@
             </c:when>
 
             <c:otherwise>
-                <p class="question">Question</p>
-                <p class="question">out of <h:outputLabel value=""/></p>
+                <p class="question">Question <h:outputLabel value="#{matchController.increasedCounter}"/></p>
+                <p class="question">out of <h:outputLabel value="#{matchController.NUMBER_OF_QUIZZES}"/></p>
                 <br/>
 
                 <c:set var="quiz" value="#{matchController.currentQuiz}"/>
@@ -69,7 +75,7 @@
     </c:otherwise>
 
 </c:choose>
-
+    </ui:define>
 </ui:composition>
 
 </html>

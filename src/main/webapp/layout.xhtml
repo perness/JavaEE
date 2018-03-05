@@ -8,6 +8,11 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 
 <head>
+    <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
 
     <link rel="stylesheet" href="assets/style.css"/>
 
@@ -15,6 +20,17 @@
         <ui:insert name="title">This is the main title</ui:insert>
     </title>
 
+    <ui:insert name="headTags"/>
 </head>
+
+<body>
+
+<ui:insert name="content"/>
+
+<hr/>
+
+<p>This is the footer of the layout</p>
+
+</body>
 
 </html>

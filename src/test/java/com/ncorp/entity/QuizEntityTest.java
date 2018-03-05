@@ -13,15 +13,15 @@ import static org.junit.Assert.*;
 
 public class QuizEntityTest {
 
-	private EntityManagerFactory factory;
-	private EntityManager entityManager;
+//	private EntityManagerFactory factory;
+//	private EntityManager entityManager;
 	private Util util;
 
 	@Before
 	public void init(){
 		util = new Util();
-		util.setFactory(factory);
-		util.setEntityManager(entityManager);
+//		util.setFactory(factory);
+//		util.setEntityManager(entityManager);
 		util.init();
 	}
 

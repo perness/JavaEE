@@ -76,5 +76,11 @@ public class MatchController implements Serializable {
 
 	}
 
+	public int getNUMBER_OF_QUIZZES() {
+		return NUMBER_OF_QUIZZES;
+	}
 
+	public int getIncreasedCounter(){
+		return counter++;
+	}
 }

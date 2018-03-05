@@ -2,75 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="350160ad-e69c-4d75-8d8a-56d9eab31645" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/homework.iml" afterPath="$PROJECT_DIR$/homework.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/CategoryEjb.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/CategoryEjb.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/DefaultDataInitializerEjb.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/DefaultDataInitializerEjb.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/QuizEjb.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/QuizEjb.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/entity/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/entity/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/ejb/CategoryEjb.class" afterPath="$PROJECT_DIR$/target/classes/com/ncorp/ejb/CategoryEjb.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/ejb/DefaultDataInitializerEjb.class" afterPath="$PROJECT_DIR$/target/classes/com/ncorp/ejb/DefaultDataInitializerEjb.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/ejb/QuizEjb.class" afterPath="$PROJECT_DIR$/target/classes/com/ncorp/ejb/QuizEjb.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ncorp/entity/App.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layout.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/layout.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/match.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/match.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ncorp/entity/QuizEntityTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ncorp/entity/QuizEntityTest.java" />
       <change beforePath="$PROJECT_DIR$/target/db.mv.db" afterPath="$PROJECT_DIR$/target/db.mv.db" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180219-150232634/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180219-150232634/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180219-171738729/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180219-171738729/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180219-171821124/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180219-171821124/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180219-174637538/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180219-174637538/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-025157954/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-025157954/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-025244690/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-025244690/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-030041115/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-030041115/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-030153931/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-030153931/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-030210384/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-030210384/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-031343933/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-031343933/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-164602564/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-164602564/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-170937340/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-170937340/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-181526665/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-181526665/standalone.v2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-185043470/standalone.v1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180220-185043470/standalone.v2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180227-213703012/standalone.v1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180227-213703012/standalone.v2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180227-213703012/standalone.v3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180227-213703012/standalone.v4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180227-213703012/standalone.v5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/20180227-213703012/standalone.v6.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" afterPath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" />
       <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/current/standalone.v2.xml" afterPath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/current/standalone.v2.xml" />
       <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/standalone.boot.xml" afterPath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/configuration/standalone_xml_history/standalone.boot.xml" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/data/content/07/9f07ac774ad54161ef7c1c8d4f466b725d3a71/content" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/data/content/2b/0817e7b233d2f63b9312f5392091c2dd7e0730/content" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/data/content/36/8f57f8f3a503e5aa544209be737ba1611696da/content" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/data/content/a3/2d525e9ffd22cae7e2b12fc7aec7e6d77e68dc/content" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/data/kernel/process-uuid" afterPath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/data/kernel/process-uuid" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/data/tx-object-store/ShadowNoFileLockStore/defaultStore/EISNAME/0_ffff7f000101_-135c64a7_5a89ed30_10" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/data/tx-object-store/ShadowNoFileLockStore/defaultStore/EISNAME/0_ffff7f000101_69f43907_5a95ac33_10" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/log/server.log" afterPath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/log/server.log" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/log/server.log.2018-02-18" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/downloaded_Wildfly/wildfly/standalone/log/server.log.2018-02-19" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/quizgame.war" afterPath="$PROJECT_DIR$/target/quizgame.war" />
+      <change beforePath="$PROJECT_DIR$/target/quizgame/index.xhtml" afterPath="$PROJECT_DIR$/target/quizgame/index.xhtml" />
+      <change beforePath="$PROJECT_DIR$/target/quizgame/layout.xhtml" afterPath="$PROJECT_DIR$/target/quizgame/layout.xhtml" />
+      <change beforePath="$PROJECT_DIR$/target/quizgame/match.xhtml" afterPath="$PROJECT_DIR$/target/quizgame/match.xhtml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.ejb.CategoryEjbTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.ejb.CategoryEjbTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.ejb.DefaultDataInitializerEjbTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.ejb.DefaultDataInitializerEjbTest.xml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.ejb.QuizEjbTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.ejb.QuizEjbTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.entity.AppTest.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.entity.CategoryEntityTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.entity.CategoryEntityTest.xml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.entity.QuizEntityTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ncorp.entity.QuizEntityTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.CategoryEjbTest-output.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.CategoryEjbTest-output.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.CategoryEjbTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.CategoryEjbTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.DefaultDataInitializerEjbTest-output.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.DefaultDataInitializerEjbTest-output.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.DefaultDataInitializerEjbTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.DefaultDataInitializerEjbTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.QuizEjbTest-output.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.QuizEjbTest-output.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.QuizEjbTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.ejb.QuizEjbTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.AppTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.CategoryEntityTest-output.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.CategoryEntityTest-output.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.CategoryEntityTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.CategoryEntityTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.QuizEntityTest-output.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.QuizEntityTest-output.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.QuizEntityTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ncorp.entity.QuizEntityTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/entity/AppTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ncorp/entity/QuizEntityTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/ncorp/entity/QuizEntityTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,41 +55,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MatchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="1220">
+              <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+              <folding>
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1676#1677#0" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/result.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizEjbTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/ejb/QuizEjbTest.java">
+      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="21" column="75" lean-forward="false" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <file leaf-file-name="match.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/match.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="1000">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <file leaf-file-name="layout.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/layout.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="538">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,26 +147,28 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/homework/QuizEntityTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/homework/CategoryEntityTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/homework/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/arquillian.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/beans/CategoryEjb.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/ejb/CategoryEjbTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/ejb/EjbTestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/ejb/ResetEjb.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/ejb/QuizEjbTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/ejb/DefaultDataInitializerEjbTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ncorp/controller/MatchController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/layout.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/result.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/match.xhtml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/QuizEjb.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/DefaultDataInitializerEjb.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ncorp/ejb/CategoryEjb.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/ejb/ResetEjb.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/entity/Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ncorp/entity/QuizEntityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layout.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/match.xhtml" />
       </list>
     </option>
   </component>
@@ -213,6 +212,25 @@
     <option name="y" value="-5" />
     <option name="width" value="1398" />
     <option name="height" value="1028" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JpaDomInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -285,30 +303,6 @@
               <item name="homework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,44 +313,14 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ncorp" type="462c0819:PsiDirectoryNode" />
-              <item name="ejb" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +331,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testing_security_development_enterprise_systems" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.25747126" />
+    <property name="project.structure.side.proportion" value="0.42088854" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="homework" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -392,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.WildFly Managed: QuizEjbTest.testNoQuiz">
+  <component name="RunManager" selected="Docker.homework/Dockerfile">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -414,7 +382,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="WildFly Managed: DefaultDataInitializerEjbTest.verifyDataInDatabase" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="WildFly Managed: CategoryEjbTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ncorp.ejb.*" />
@@ -430,37 +398,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ncorp.ejb" />
-      <option name="MAIN_CLASS_NAME" value="com.ncorp.ejb.DefaultDataInitializerEjbTest" />
-      <option name="METHOD_NAME" value="verifyDataInDatabase" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="WildFly Managed: QuizEjbTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ncorp.ejb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="homework" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="WildFly Managed" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ncorp.ejb" />
-      <option name="MAIN_CLASS_NAME" value="com.ncorp.ejb.QuizEjbTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ncorp.ejb.CategoryEjbTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="" />
@@ -474,7 +412,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WildFly Managed: QuizEjbTest.testCreateQuiz" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="WildFly Managed: CategoryEjbTest.testCreateTwice" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ncorp.ejb.*" />
@@ -490,8 +428,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ncorp.ejb" />
-      <option name="MAIN_CLASS_NAME" value="com.ncorp.ejb.QuizEjbTest" />
-      <option name="METHOD_NAME" value="testCreateQuiz" />
+      <option name="MAIN_CLASS_NAME" value="com.ncorp.ejb.CategoryEjbTest" />
+      <option name="METHOD_NAME" value="testCreateTwice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PARAMETERS" value="" />
@@ -504,7 +442,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WildFly Managed: QuizEjbTest.testGetRandomQuizzes" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="WildFly Managed: CategoryEjbTest.testNoCategory" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ncorp.ejb.*" />
@@ -520,8 +458,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ncorp.ejb" />
-      <option name="MAIN_CLASS_NAME" value="com.ncorp.ejb.QuizEjbTest" />
-      <option name="METHOD_NAME" value="testGetRandomQuizzes" />
+      <option name="MAIN_CLASS_NAME" value="com.ncorp.ejb.CategoryEjbTest" />
+      <option name="METHOD_NAME" value="testNoCategory" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PARAMETERS" value="" />
@@ -534,28 +472,23 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WildFly Managed: QuizEjbTest.testNoQuiz" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="QuizEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ncorp.ejb.*" />
+          <option name="PATTERN" value="com.ncorp.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="homework" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="WildFly Managed" />
-        </value>
-      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ncorp.ejb" />
-      <option name="MAIN_CLASS_NAME" value="com.ncorp.ejb.QuizEjbTest" />
-      <option name="METHOD_NAME" value="testNoQuiz" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PACKAGE_NAME" value="com.ncorp.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.ncorp.entity.QuizEntityTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -624,20 +557,37 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <configuration name="homework/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: QuizEjbTest.testCreateQuiz" />
-      <item index="1" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: QuizEjbTest.testGetRandomQuizzes" />
-      <item index="2" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: DefaultDataInitializerEjbTest.verifyDataInDatabase" />
-      <item index="3" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: QuizEjbTest" />
-      <item index="4" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: QuizEjbTest.testNoQuiz" />
+      <item index="0" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: CategoryEjbTest" />
+      <item index="1" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: CategoryEjbTest.testNoCategory" />
+      <item index="2" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: CategoryEjbTest.testCreateTwice" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.QuizEntityTest" />
+      <item index="4" class="java.lang.String" itemvalue="Docker.homework/Dockerfile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: QuizEjbTest.testNoQuiz" />
-        <item index="1" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: QuizEjbTest" />
-        <item index="2" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: DefaultDataInitializerEjbTest.verifyDataInDatabase" />
-        <item index="3" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: QuizEjbTest.testGetRandomQuizzes" />
-        <item index="4" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: QuizEjbTest.testCreateQuiz" />
+        <item index="0" class="java.lang.String" itemvalue="Docker.homework/Dockerfile" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.QuizEntityTest" />
+        <item index="2" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: CategoryEjbTest.testCreateTwice" />
+        <item index="3" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: CategoryEjbTest.testNoCategory" />
+        <item index="4" class="java.lang.String" itemvalue="Arquillian JUnit.WildFly Managed: CategoryEjbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -684,22 +634,28 @@
       <workItem from="1519677863443" duration="903000" />
       <workItem from="1519678796538" duration="59000" />
       <workItem from="1519678870237" duration="1474000" />
-      <workItem from="1519755722611" duration="4125000" />
+      <workItem from="1519755722611" duration="6624000" />
+      <workItem from="1519937109086" duration="23000" />
+      <workItem from="1519937155195" duration="1565000" />
+      <workItem from="1520024173008" duration="5792000" />
+      <workItem from="1520103446667" duration="3208000" />
+      <workItem from="1520263245511" duration="1601000" />
+      <workItem from="1520273563553" duration="819000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WildFly_Managed__DefaultDataInitializerEjbTest_verifyDataInDatabase - 2018.02.20 at 18h 50m 47s.xml">
-      <configuration name="WildFly Managed: DefaultDataInitializerEjbTest.verifyDataInDatabase" configurationId="ArquillianJUnit" />
+    <history-entry file="QuizEntityTest - 2018.03.02 at 23h 13m 31s.xml">
+      <configuration name="QuizEntityTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WildFly_Managed__QuizEjbTest - 2018.02.26 at 15h 49m 15s.xml">
-      <configuration name="WildFly Managed: QuizEjbTest" configurationId="ArquillianJUnit" />
+    <history-entry file="WildFly_Managed__CategoryEjbTest - 2018.03.02 at 22h 23m 26s.xml">
+      <configuration name="WildFly Managed: CategoryEjbTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="WildFly_Managed__QuizEjbTest_testCreateQuiz - 2018.02.20 at 03h 00m 45s.xml">
-      <configuration name="WildFly Managed: QuizEjbTest.testCreateQuiz" configurationId="ArquillianJUnit" />
+    <history-entry file="WildFly_Managed__CategoryEjbTest_testCreateTwice - 2018.03.02 at 23h 09m 49s.xml">
+      <configuration name="WildFly Managed: CategoryEjbTest.testCreateTwice" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="WildFly_Managed__QuizEjbTest_testCreateQuiz - 2018.02.20 at 03h 01m 58s.xml">
-      <configuration name="WildFly Managed: QuizEjbTest.testCreateQuiz" configurationId="ArquillianJUnit" />
+    <history-entry file="WildFly_Managed__CategoryEjbTest_testNoCategory - 2018.03.02 at 22h 27m 29s.xml">
+      <configuration name="WildFly Managed: CategoryEjbTest.testNoCategory" configurationId="ArquillianJUnit" />
     </history-entry>
     <history-entry file="WildFly_Managed__QuizEjbTest_testCreateQuiz - 2018.02.20 at 16h 46m 07s.xml">
       <configuration name="WildFly Managed: QuizEjbTest.testCreateQuiz" configurationId="ArquillianJUnit" />
@@ -721,7 +677,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148135000" />
+    <option name="totallyTimeSpent" value="163642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,36 +694,36 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5019608" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329972" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329972" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32951945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.49803922" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7208238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61098397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30476192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61098397" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31876752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.49803922" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -949,13 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/entity/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
@@ -977,80 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/entity/QuizEntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/ejb/ResetEjb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/ejb/CategoryEjbTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/ejb/DefaultDataInitializerEjbTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="38" column="101" lean-forward="false" selection-start-line="38" selection-start-column="101" selection-end-line="38" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layout.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/result.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="97" lean-forward="false" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/match.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="62" column="105" lean-forward="false" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/ejb/QuizEjb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1066,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,18 +959,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/entity/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/entity/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="143" column="35" lean-forward="false" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="89" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/ejb/CategoryEjb.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#1634#1635#0" expanded="false" />
-            <element signature="e#1689#1690#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/entity/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/entity/QuizEntityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/ejb/CategoryEjbTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1104,56 +1022,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#652#653#0" expanded="false" />
-            <element signature="e#674#675#0" expanded="false" />
-            <element signature="e#820#821#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#907#908#0" expanded="false" />
-            <element signature="e#956#957#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1035#1036#0" expanded="false" />
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1264#1265#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/entity/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/entity/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/ejb/QuizEjbTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/ejb/CategoryEjb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ncorp/ejb/ResetEjb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="31" column="71" lean-forward="true" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/ejb/QuizEjb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ncorp/controller/MatchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/result.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/match.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="75" lean-forward="false" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layout.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1176,10 +1133,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>homework:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.25747126" />
+                <option value="0.42088854" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1191,7 +1150,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.25747126" />
+                <option value="0.42088854" />
               </list>
             </option>
           </splitter-proportions>
@@ -1202,7 +1161,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.25747126" />
+                <option value="0.42088854" />
               </list>
             </option>
           </splitter-proportions>
@@ -1214,7 +1173,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.25747126" />
+                <option value="0.42088854" />
               </list>
             </option>
           </splitter-proportions>
@@ -1222,12 +1181,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>homework</last-edited>
+          <last-edited>JPA|homework</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.25747126" />
-                <option value="0.6" />
+                <option value="0.42088854" />
               </list>
             </option>
           </splitter-proportions>
@@ -1235,11 +1193,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: com.h2database:h2:1.4.196</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.25747126" />
+                <option value="0.42088854" />
               </list>
             </option>
           </splitter-proportions>

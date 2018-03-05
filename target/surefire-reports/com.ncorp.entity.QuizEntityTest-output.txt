@@ -1,36 +1,36 @@
-Feb 27, 2018 8:06:23 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Mar 05, 2018 7:23:33 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [
 	name: DB
 	...]
-Feb 27, 2018 8:06:23 PM org.hibernate.Version logVersion
+Mar 05, 2018 7:23:34 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {5.2.9.Final}
-Feb 27, 2018 8:06:23 PM org.hibernate.cfg.Environment <clinit>
+Mar 05, 2018 7:23:34 PM org.hibernate.cfg.Environment <clinit>
 INFO: HHH000206: hibernate.properties not found
-Feb 27, 2018 8:06:23 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+Mar 05, 2018 7:23:34 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-Feb 27, 2018 8:06:23 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Mar 05, 2018 7:23:34 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Feb 27, 2018 8:06:23 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:34 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [null] at URL [jdbc:h2:./target/db]
-Feb 27, 2018 8:06:23 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:34 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {}
-Feb 27, 2018 8:06:23 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:34 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Feb 27, 2018 8:06:23 PM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
+Mar 05, 2018 7:23:34 PM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Feb 27, 2018 8:06:23 PM org.hibernate.dialect.Dialect <init>
+Mar 05, 2018 7:23:34 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-Feb 27, 2018 8:06:24 PM org.hibernate.validator.internal.util.Version <clinit>
+Mar 05, 2018 7:23:34 PM org.hibernate.validator.internal.util.Version <clinit>
 INFO: HV000001: Hibernate Validator 5.3.4.Final
 Hibernate: drop table Category if exists
-Feb 27, 2018 8:06:24 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4287d447] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2c383e33] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: drop table Quiz if exists
 Hibernate: drop table SubCategory if exists
 Hibernate: drop sequence if exists hibernate_sequence
 Hibernate: create sequence hibernate_sequence start with 1 increment by 1
-Feb 27, 2018 8:06:24 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15515c51] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7c0da600] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
 Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
 Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
@@ -38,53 +38,53 @@ Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 uniq
 Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
 Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
 Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
-Feb 27, 2018 8:06:24 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
-INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7de4a01f'
-Feb 27, 2018 8:06:24 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
+Mar 05, 2018 7:23:35 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
+INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@46044faa'
+Mar 05, 2018 7:23:35 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
 INFO: HHH000397: Using ASTQueryTranslatorFactory
 Hibernate: call next value for hibernate_sequence
-Feb 27, 2018 8:06:24 PM org.hibernate.internal.ExceptionMapperStandardImpl mapManagedFlushFailure
+Mar 05, 2018 7:23:35 PM org.hibernate.internal.ExceptionMapperStandardImpl mapManagedFlushFailure
 ERROR: HHH000346: Error during managed flush [Validation failed for classes [com.ncorp.entity.Quiz] during persist time for groups [javax.validation.groups.Default, ]
 List of constraint violations:[
 	ConstraintViolationImpl{interpolatedMessage='may not be null', propertyPath=subCategory, rootBeanClass=class com.ncorp.entity.Quiz, messageTemplate='{javax.validation.constraints.NotNull.message}'}
 ]]
 FAILED TRANSACTION: javax.persistence.RollbackException: Error while committing the transaction
 Generated ID for quiz 1
-Feb 27, 2018 8:06:24 PM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+Mar 05, 2018 7:23:35 PM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
 INFO: HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
 Hibernate: drop table Category if exists
-Feb 27, 2018 8:06:24 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4d74c3ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15fa55a6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: drop table Quiz if exists
 Hibernate: drop table SubCategory if exists
 Hibernate: drop sequence if exists hibernate_sequence
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:./target/db]
-Feb 27, 2018 8:06:24 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Mar 05, 2018 7:23:35 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [
 	name: DB
 	...]
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [null] at URL [jdbc:h2:./target/db]
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {}
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Feb 27, 2018 8:06:24 PM org.hibernate.dialect.Dialect <init>
+Mar 05, 2018 7:23:35 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 Hibernate: drop table Category if exists
-Feb 27, 2018 8:06:24 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@49293b43] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5cbd159f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: drop table Quiz if exists
 Hibernate: drop table SubCategory if exists
 Hibernate: drop sequence if exists hibernate_sequence
 Hibernate: create sequence hibernate_sequence start with 1 increment by 1
-Feb 27, 2018 8:06:24 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5ff60a8c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b05a99b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
 Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
 Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
@@ -92,9 +92,9 @@ Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 uniq
 Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
 Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
 Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
-Feb 27, 2018 8:06:24 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
-INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7de4a01f'
-Feb 27, 2018 8:06:24 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
+Mar 05, 2018 7:23:35 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
+INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@46044faa'
+Mar 05, 2018 7:23:35 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
 INFO: HHH000397: Using ASTQueryTranslatorFactory
 Hibernate: call next value for hibernate_sequence
 Hibernate: call next value for hibernate_sequence
@@ -102,41 +102,41 @@ Hibernate: call next value for hibernate_sequence
 Hibernate: insert into Category (name, id) values (?, ?)
 Hibernate: insert into SubCategory (category_id, name, id) values (?, ?, ?)
 Hibernate: insert into Quiz (answerFour, answerOne, answerThree, answerTwo, correctAnswer, question, subCategory_id, id) values (?, ?, ?, ?, ?, ?, ?, ?)
-Feb 27, 2018 8:06:24 PM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+Mar 05, 2018 7:23:35 PM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
 INFO: HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
 Hibernate: drop table Category if exists
-Feb 27, 2018 8:06:24 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@13f9ad9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ece1e79] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: drop table Quiz if exists
 Hibernate: drop table SubCategory if exists
 Hibernate: drop sequence if exists hibernate_sequence
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:./target/db]
-Feb 27, 2018 8:06:24 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+Mar 05, 2018 7:23:35 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [
 	name: DB
 	...]
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [null] at URL [jdbc:h2:./target/db]
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {}
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-Feb 27, 2018 8:06:24 PM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Feb 27, 2018 8:06:24 PM org.hibernate.dialect.Dialect <init>
+Mar 05, 2018 7:23:35 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 Hibernate: drop table Category if exists
-Feb 27, 2018 8:06:24 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7bca6fac] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23592946] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: drop table Quiz if exists
 Hibernate: drop table SubCategory if exists
 Hibernate: drop sequence if exists hibernate_sequence
 Hibernate: create sequence hibernate_sequence start with 1 increment by 1
-Feb 27, 2018 8:06:24 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5c60b0a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3e48d38] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: create table Category (id bigint not null, name varchar(128) not null, primary key (id))
 Hibernate: create table Quiz (id bigint not null, answerFour varchar(128) not null, answerOne varchar(128) not null, answerThree varchar(128) not null, answerTwo varchar(128) not null, correctAnswer integer not null check (correctAnswer>=0 AND correctAnswer<=3), question varchar(128) not null, subCategory_id bigint not null, primary key (id))
 Hibernate: create table SubCategory (id bigint not null, name varchar(128) not null, category_id bigint not null, primary key (id))
@@ -144,9 +144,9 @@ Hibernate: alter table Category add constraint UK_foei036ov74bv692o5lh5oi66 uniq
 Hibernate: alter table Quiz add constraint UK_q4b6wyhfm04u8jnsqw2tx2wxh unique (question)
 Hibernate: alter table Quiz add constraint FKa14569rl1ol6eb40vafv1yci8 foreign key (subCategory_id) references SubCategory
 Hibernate: alter table SubCategory add constraint FK806xr1d6ncs4kj5poyk81o90m foreign key (category_id) references Category
-Feb 27, 2018 8:06:24 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
-INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7de4a01f'
-Feb 27, 2018 8:06:24 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
+Mar 05, 2018 7:23:35 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
+INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@46044faa'
+Mar 05, 2018 7:23:35 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
 INFO: HHH000397: Using ASTQueryTranslatorFactory
 Hibernate: call next value for hibernate_sequence
 Hibernate: call next value for hibernate_sequence
@@ -169,13 +169,13 @@ Hibernate: select subcategor0_.id as id1_2_0_, subcategor0_.category_id as categ
 Hibernate: select quiz0_.id as id1_1_, quiz0_.answerFour as answerFo2_1_, quiz0_.answerOne as answerOn3_1_, quiz0_.answerThree as answerTh4_1_, quiz0_.answerTwo as answerTw5_1_, quiz0_.correctAnswer as correctA6_1_, quiz0_.question as question7_1_, quiz0_.subCategory_id as subCateg8_1_ from Quiz quiz0_ cross join SubCategory subcategor1_ cross join Category category2_ where quiz0_.subCategory_id=subcategor1_.id and subcategor1_.category_id=category2_.id and category2_.name='JEE'
 Hibernate: select subcategor0_.id as id1_2_0_, subcategor0_.category_id as category3_2_0_, subcategor0_.name as name2_2_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from SubCategory subcategor0_ inner join Category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
 Hibernate: select subcategor0_.id as id1_2_0_, subcategor0_.category_id as category3_2_0_, subcategor0_.name as name2_2_0_, category1_.id as id1_0_1_, category1_.name as name2_0_1_ from SubCategory subcategor0_ inner join Category category1_ on subcategor0_.category_id=category1_.id where subcategor0_.id=?
-Feb 27, 2018 8:06:25 PM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+Mar 05, 2018 7:23:35 PM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
 INFO: HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
 Hibernate: drop table Category if exists
-Feb 27, 2018 8:06:25 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e8cda75] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Mar 05, 2018 7:23:35 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e671e20] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 Hibernate: drop table Quiz if exists
 Hibernate: drop table SubCategory if exists
 Hibernate: drop sequence if exists hibernate_sequence
-Feb 27, 2018 8:06:25 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
+Mar 05, 2018 7:23:35 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:h2:./target/db]

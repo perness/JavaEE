@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ncorp.ejb.CategoryEjbTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.976 sec - in com.ncorp.ejb.CategoryEjbTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.998 sec - in com.ncorp.ejb.CategoryEjbTest
